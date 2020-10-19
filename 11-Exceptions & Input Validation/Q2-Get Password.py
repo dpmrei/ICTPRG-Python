@@ -46,4 +46,4 @@ while pass_valid == False:
         pass_valid = True
         break
 
-print ('Your password is accepted.')
+print ('Your password is valid and has been accepted.')
