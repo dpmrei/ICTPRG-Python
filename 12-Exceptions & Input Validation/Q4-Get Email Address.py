@@ -6,15 +6,28 @@
 
 # [^@]+@[^@]+\.[^@]+    is this useful?
 
-# are these tasks designed to be done without importing modules?
-
 # https://regex101.com/
 
-import re
 
-email_valid = False:
+def Account_Domain()
+
+
+
+email_valid = False
 
 while email_valid == False:
     email_input = input('Please enter your email address:\t')
 
-    if email_input == [^@]+@[^@]+\.[^@]+
+    if email_input.find('@') == -1:
+        print ("Please try again, a valid email must incorporate an '@' symbol.")
+    
+    elif email_input.find('.') == -1:
+        print ("Please try again, a valid email must incorporate at least one '.' symbol.")
+    
+    elif:
+        (account,domain_long) = email_input.split('@')
+        domain = domain_long.split('.')[0]
+        
+
+print (account)
+print(domain)

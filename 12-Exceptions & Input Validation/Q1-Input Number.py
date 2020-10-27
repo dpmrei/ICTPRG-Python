@@ -10,4 +10,4 @@ while data_valid == False:
     else:
         data_valid = True
 
-print ('Thank you')
+print (f"Thank you, your number is '{number}'")
