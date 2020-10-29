@@ -27,7 +27,7 @@ while email_valid == False:
             print ('\nThe account name has to be between 3 and 32 characters long.')
             break
 
-        # check that the mail server lenght is correct
+        # check that the mail server length is correct
         elif len(dot_split[0]) <3 or len(dot_split[0]) > 32:
             print ('\nThe mail server length has to be between 3 and 32 characters long.')
             break
