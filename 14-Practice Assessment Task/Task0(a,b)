@@ -1,0 +1,17 @@
+
+Task 0
+    1.  Iterate through every number within the range of 0 - 100 (0-101 in code)
+    2   Print the number
+
+Task 0.a
+    1.  Iterate through every number within the range of 0 - 100 (0-101 in code)
+    2.  Using modulo , divide each number by 10 and check if there are any remainders.
+    3.  If there are no remainders, then the number is 0 or divisible by 10, so pass
+    4.  Otherwise, print the number if not divisible by 10
+
+Task 0.b
+    1.  Iterate through every number within the range of 0 - 100 (0-101 in code)
+    2.  Convert each number to string format and check if the number '3' is found in
+        each iteration
+    3.  If number '3' is found, then pass to next iteration
+    4.  Otherwise, print the number
