@@ -7,6 +7,7 @@
 
 
 input_valid = False
+wordlist = []
 
 while input_valid == False:
     print ('\nPlease enter a sentence.  It must have a minimum of 5 words and a maximum of 10 words:\n')
@@ -25,4 +26,7 @@ while input_valid == False:
 
     else:
         print('\nThank you.')
+        wordlist = text_in.lower().split()
         input_valid = True
+
+print (wordlist)
