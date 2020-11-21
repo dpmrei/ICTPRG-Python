@@ -10,7 +10,7 @@ except:
 complete = False
 while complete == False:
     try:
-        selection = int(input('Choose from the following menu items:\n1.\tadd new order\n2.\tlist orders\n3.\texit\n> '))
+        selection = int(input('\nChoose from the following menu items:\n1.\tadd new order\n2.\tlist orders\n3.\texit\n> '))
     except:
         print ('\nThat is not a valid input')
         

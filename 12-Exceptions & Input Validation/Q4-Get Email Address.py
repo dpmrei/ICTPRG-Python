@@ -48,7 +48,7 @@ while email_valid == False:
             break
 
         # check for spaces within email
-        elif '' in email:
+        elif ' ' in email:
             print ("\nThere should not be any spaces within the email.")
             break
 
