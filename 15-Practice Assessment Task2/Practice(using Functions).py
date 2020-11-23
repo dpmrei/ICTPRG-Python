@@ -5,7 +5,7 @@ def Check4File():
     try:
         f = open('orders.txt','r')
         print ('\nReading previous orders.')
-        filecontent = f.read()
+        #filecontent = f.read()
         #print (filecontent)
     except:
         print ('\nPrevious orders not found.')
@@ -47,10 +47,14 @@ def Select_1():
 
 def Read_Orders():
     with open ('orders.txt', 'r') as orders:
-            for line in orders.readlines():
-                a,b,c,d = line.strip().split('|')
-                read_orders = (f'{a},\t\t{b} Burger(s), {c} Fries, {d} Cokes')
-                print (read_orders)
+        count = 1
+        print ()
+        for line in orders.readlines():
+            a,b,c,d = line.strip().split('|')
+            read_orders = (f'{count}.  {a},\t{b} Burger(s), {c} Fries, {d} Cokes')
+            count += 1
+            print (read_orders)
+                
 
 
 Selection()
