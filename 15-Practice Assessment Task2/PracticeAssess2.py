@@ -31,9 +31,12 @@ while complete == False:
 
     elif selection == 2:
         with open ('orders.txt', 'r') as orders:
+            count = 1
+            print ()
             for line in orders.readlines():
                 a,b,c,d = line.strip().split('|')
-                read_orders = (f'{a},\t\t{b} Burger(s), {c} Fries, {d} Cokes')
+                read_orders = (f'{count}.  {a},\t{b} Burger(s), {c} Fries, {d} Cokes')
+                count += 1
                 print (read_orders)
     elif selection == 3:
         print ('\nEnjoy your meal')
